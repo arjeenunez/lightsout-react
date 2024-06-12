@@ -1,0 +1,57 @@
+.Grid {
+    margin: 10px auto;
+}
+
+.Grid-cells-container {
+    position: relative;
+    width: calc(75px * 5);
+    height: calc(75px * 5);
+    margin: 0 auto;
+}
+
+.Grid-cells {
+    width: calc(75px * 5);
+    height: calc(75px * 5);
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: yellow;
+    border-radius: 0.5em;
+    overflow: hidden;
+    border: 1px solidblack;
+}
+
+.Grid-cells-shadow {
+    width: calc(79px * 5);
+    height: calc(79px * 5);
+    background: linear-gradient(125deg, rgb(255, 0, 255), white);
+    filter: blur(1.9em);
+    position: absolute;
+    z-index: -1;
+}
+
+.Grid-title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.Grid-title-container {
+    font-family: 'Neonderthaw', cursive;
+}
+
+.Grid h1 {
+    font-size: 5rem;
+    /* color: white; */
+    margin: 20px 0;
+}
+
+.Grid-title-one {
+    color: orange;
+}
+
+.Grid-title-two {
+    color: rgb(0, 145, 255);
+}
